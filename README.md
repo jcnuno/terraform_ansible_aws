@@ -20,7 +20,7 @@ Con terraform podemos programar un plan que gestione recursos en muchos servicio
 
 ### Autentificación 
 
-Tenemos varias formas de indicar nuestras [credenciales](https://www.terraform.io/docs/providers/aws/index.html#authentication) de AWS para que terraform se pueda conectar a nuestra cuenta. Nostros vamos a elegir el uso de variables de entorno, para evitar escribir nuestras credenciales en un fichero de texto que normalmente estará guardado en un repositorio git.
+Tenemos varias formas de indicar nuestras [credenciales](https://www.terraform.io/docs/providers/aws/index.html#authentication) de AWS para que terraform se pueda conectar a nuestra cuenta. Nosotros vamos a elegir el uso de variables de entorno, para evitar escribir nuestras credenciales en un fichero de texto que normalmente estará guardado en un repositorio git.
 
 Por lo tanto antes de ejecutar terraform tendremos que definir las siguiente variables de entorno:
 
